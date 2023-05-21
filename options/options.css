@@ -1,0 +1,41 @@
+body {
+    background-color: indianred;
+}
+
+body div {
+    display: grid;
+    place-items: center;
+}
+
+#title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+#subtitle {
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+#time-option {
+    outline: none;
+    border: none; 
+    width: 300px;
+    border-radius: 4px;
+    padding: 10px
+}
+
+#save-btn {
+    display: block;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: indianred;
+    font-weight: bold;
+    cursor: pointer;
+}
